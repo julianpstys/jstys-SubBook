@@ -1,0 +1,33 @@
+This app is a solution to the problem described in Assignment 1. 
+It allows the user to manage their subscriptions, and displays a 
+list of all records to the user in an intuitive way. 
+
+Classes:
+The function and implementation of each class is given in documentation,
+as well as in the UML class diagram located in doc/jstys-UML.png
+
+XMLs: 
+There are 3 main XML views that are used
+1. The loading screen XML (activity_subscription_list.xml) displays 
+a list of all existing records, and allows the user to click on each 
+record to edit/delete them. It also provides a way to add a new 
+subscription
+
+2. The subscription adding XML (activity_main.xml) allows the user 
+to add a new record, and go back to the main list view XML
+
+3. The subscription editing XML (activity_record.xml) allows the user
+to edit/delete an existing XML. This is loaded once the user clicks on
+an entry from the loading screen ListView. 
+
+APK:
+The apk binary for this project is found at app/build/output/apk/app-debug.apk
+
+Acknowledgment:
+The sources I used for specific lines of code are given through comments. I also
+used the lonelyTwitter project that we learned about in the lab to help with some 
+concepts (Gson, adapters).
+- Lucid Chart for the making of the UML class diagram (https://www.lucidchart.com/)
+
+
+

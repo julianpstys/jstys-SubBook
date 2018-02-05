@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">jstys-SubBook</string>
+    <string name="title_activity_sub_record">SubRecord</string>
+    <string name="title_activity_single_record">SingleRecord</string>
+</resources>
